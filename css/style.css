@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .header {
+    background: url(../img/bg.png);
+    min-height: 100vh;    
+}
+.navbar {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +23,7 @@ padding-bottom: 30px;
     margin: auto;
 }
 .user {
-    margin-left: auto;
+    margin-left: 33px;
     color: white;
     display: flex;
     align-items: center;
