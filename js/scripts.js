@@ -1,10 +1,9 @@
 const schemeSvg = document.querySelector('.scheme-svg');
-
+const menuButton = document.querySelector('.m-menu'); 
+const menu = document.querySelector('.menu'); 
 const totalPriceTag = document.querySelector (".price-total");
 let cost = 800;
 let totalPrice = 0;
-
-
 
 schemeSvg.addEventListener("click", (event) =>{
 if (!event.target.classList.contains('booked')) {
@@ -14,3 +13,9 @@ if (!event.target.classList.contains('booked')) {
     totalPriceTag.textContent = totalPrice;
 }
 });
+
+menuButton,addEventListener('click', () => {
+    /*console.log ('MENU CLICKED');
+    menu.style.display="block";*/
+    menu.classList.toggle("is-open");
+})
