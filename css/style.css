@@ -227,6 +227,33 @@ body {
   color:rgba(255, 255, 255, 0.5)
 }
 
-legend svg {
+.legend svg {
   margin-right: 15px;
+}
+
+.price {
+   padding-top: 30px;
+   padding-bottom: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.price-label {
+  display: block;
+  font-size: 18px;
+line-height: 21px;
+}
+.price-total {
+  font-size: 52px;
+  line-height: 61px;
+}
+
+.button-pay {
+background: #FE8E05;
+border-radius: 45px;
+color: white;
+font-size: 18px;
+line-height: 21px;
+padding: 24px 52px;
+text-decoration:none;
 }
